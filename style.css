@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 20px 1.5rem;
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -32,4 +36,38 @@
     margin: 3px;
     background-color: rgb(229, 229, 229);
     color: rgba(66, 64, 64, 0.637);
+}
+
+.card1 {
+    display: flex;
+    padding: 20px;
+    width: 556px;
+    height: 314px;
+    background-color: rgb(115, 109, 100);
+    border: none;
+    border-radius: 10px;
+   
+}
+
+.card2{
+    display: grid;
+    padding: 20px;
+    margin-top: 1.5rem;
+    width: 664px;
+    height: 387px;
+    background-color: rgba(115, 109, 100, 0.4); 
+    border: none;
+    border-radius: 10px
+}
+
+.card3 {
+    display: grid;
+    padding: 20px;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 285px;
+    background-color: rgba(115, 109, 100, 0.4); 
+    border: none;
+    border-radius: 10px
+
 }
