@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: antiquewhite;
+}
+.search input{
+   width: 40%;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   color: rgba(66, 64, 64, 0.637);
+   background-color: rgb(229, 229, 229);
+}
+ 
+::placeholder {
+    text-align: center  ;
+}
+
+.search button {
+    height: 30px ;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 3px;
+    background-color: rgb(229, 229, 229);
+    color: rgba(66, 64, 64, 0.637);
+}
