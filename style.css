@@ -9,6 +9,15 @@ body {
     padding: 20px 1.5rem;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -46,14 +55,12 @@ body {
 }
 
 .card1 {
-    margin-bottom: 10px;
     padding: 8px;
     width: 480px;
     height: 280px;
-    background-color:rgba(138, 138, 138, 0.9);    
+    background-color:rgba(138, 138, 138, 0.5);    
     border: none;
     border-radius: 10px;
-    backdrop-filter: blur(20px);
    
 }
 
@@ -103,10 +110,9 @@ body {
     padding: 8px;
     width: 480px;
     height: 280px;
-    background-color:rgba(138, 138, 138, 0.9);    
+    background-color:rgba(138, 138, 138, 0.5 );    
     border: none;
     border-radius: 10px;
-    backdrop-filter: blur(20px);
 }
 .card2 h2{
     font-weight: 500;
@@ -126,7 +132,7 @@ body {
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px rgb(72, 73, 74);
 }
 
 .humidity{
@@ -134,21 +140,21 @@ body {
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px  rgb(72, 73, 74);
 }
 .sunrise{
     background-color: rgba(116, 122, 128, 0.3);
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px  rgb(72, 73, 74);
 }
 .uv-index{
     background-color: rgba(116, 122, 128, 0.3);
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px rgb(72, 73, 74);
 }
 
 .visibility{
@@ -156,7 +162,7 @@ body {
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px  rgb(72, 73, 74);
 }
 
 .sunset{
@@ -164,7 +170,95 @@ body {
     text-align: center;
     padding:5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px slategray;
+    box-shadow: 2px 2px 5px 2px rgb(72, 73, 74);
+}
+
+.card3 {
+    background-color:rgba(138, 138, 138, 0.5); 
+    width: 820px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    grid-column: 3 span /2;
+    margin-left: 70px;
+}
+
+.content3{
+    display: grid;
+    grid-template-columns:120px 120px 120px 120px 120px 120px ;
+    gap: 12px;
+}
+
+.sunday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sunday img{
+    width: 100px;
+    height: 100px;
+}
+
+.thuesday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.thuesday img{
+    width: 100px;
+    height: 100px;
+
+}
+.wednesday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.wednesday img{
+    width: 100px;
+    height: 100px;
+
+}
+.thursday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.thursday img{
+    width: 100px;
+    height: 100px;
+
+}
+.friday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.friday img{
+    width: 100px;
+    height: 100px;
+
+}
+.saturday{
+    background-color:rgba(116, 122, 128, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.saturday img{
+    width: 100px;
+    height: 100px;
+
 }
 
 
