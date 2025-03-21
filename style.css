@@ -7,9 +7,10 @@
 
 body {
     padding: 20px 1.5rem;
-    /* background-repeat: no-repeat;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 }
 
 .container {
@@ -61,7 +62,7 @@ body {
     padding: 8px;
     width: 400px;
     height: 280px;
-    background-color:rgba(138, 138, 138, 0.4);    
+    background-color:rgba(138, 138, 138, 0.5);    
     border: none;
     border-radius: 10px;
    
@@ -117,7 +118,7 @@ body {
     padding: 8px;
     width: 415px;
     height: 280px;
-    background-color:rgba(138, 138, 138, 0.4 );    
+    background-color:rgba(138, 138, 138, 0.5 );    
     border: none;
     border-radius: 10px;
 }
@@ -182,7 +183,7 @@ body {
 }
 
 .card3 {
-    background-color:rgba(138, 138, 138, 0.4); 
+    background-color:rgba(138, 138, 138, 0.5); 
     width: 820px;
     padding: 1rem;
     border-radius: 10px;
