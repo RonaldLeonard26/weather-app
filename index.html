@@ -15,67 +15,60 @@
     <div class="search">
         <h2>Weather</h2>
         <div class="input-location">
-            <input type="text" placeholder="search your location">
-            <button type="submit">Search</button>
+            <input type="text" placeholder="search your location" id="city-name">
+            <button type="submit" id="btn-city" onclick="getGeocoding()">Search</button>
+            
         </div>
     </div>
 
     <div class="container">
         <div class="card1">
             <div class="head">
-                <i class="fa-solid fa-location-dot">
-                    <span class="lokasi">Makassar, ID</span>
+                <i class="fa-solid fa-location-dot" style=" background-color: rgb(129, 127, 127); border-radius: 20px; padding: 5px;">
+                    <span class="lokasi" id="city-display">Makassar, ID</span>
                 </i>
                 <i class="fa-solid fa-calendar-days">
-                    <span class="day">Sunday</span>
-                    <p class="tanggal">14-03-2025</p>
+                    <span class="day" id="date">Sunday</span>
                 </i>
             </div>
             <div class="content">
-                <div>
-                    <p>Max Temp </p>
-                    <h3>28°C</h3>
-                </div>
-                <img src="rain_12053518.png" alt="heavy rain">
-                <div class="temp-min">
-                    <p>Min Temp</p>
-                    <h3>21°C</h3>
-                </div>
+                <img id="icon" src="rain_12053518.png" alt="heavy rain">
+                <h3 id="temperature">21°C</h3>
             </div>
             <div class="footer-content">
-                <h3>Heavy Rain</h3>
-                <p>Feels Like 31°C</p>
+                <h3 id="description">Heavy Rain</h3>
+                <p>Feels Like <span id="app-temperatur">31°C</span></p>
+                
             </div>   
         </div>
-
 
         <div class="card2">
             <h2>Today's Highlight</h2>
             <div class="content2">
                 <div class="wind-status">
-                    <p>Wind Status</p>
-                    <h3>7.90 km/h</h3>
+                    <p>Wind Speed</p>
+                    <h3 id="wind">7.90 km/h</h3>
                 </div>
                 <div class="humidity">
                     <p>Humidity</p>
-                    <h3>85%</h3>
+                    <h3 id="humidity-display">85%</h3>
                 </div>
                 <div class="sunrise">
                     <p>Sunrise</p>
-                    <h3>4:50 AM</h3>
+                    <h3 id="sunrise-display">4:50 AM</h3>
                     <img src="" alt="">
                 </div>
                 <div class="uv-index">
                     <p>UV Index</p>
-                    <h3>4 uv</h3>
+                    <h3 id="uv">4 uv</h3>
                 </div>
                 <div class="visibility">
                     <p>Visibility</p>
-                    <h3>5 km</h3>
+                    <h3 id="visibility-display">5 km</h3>
                 </div>
                 <div class="sunset">
                     <p>Sunset</p>
-                    <h3>6:45 PM</h3>
+                    <h3 id="sunset-display">6:45 PM</h3>
                 </div>
             </div>
             
@@ -84,46 +77,13 @@
         <div class="card3">
             <h2>6 Day Forecast</h2>
             <div class="content3" id="daily">
-                <!-- <div class="sunday">
-                    <p>Sunday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div> -->
-                <!-- <div class="thuesday">
-                    <p>Tuesday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div>
-                <div class="wednesday">
-                    <p>Wednesday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div>
-                <div class="thursday">
-                    <p>Thursday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div>
-                <div class="friday">
-                    <p>Friday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div>
-                <div class="saturday">
-                    <p>Saturday</p>
-                    <img src="cloudy_5111006.png" alt="cloudy">
-                    <p>25°C</p>
-                </div> -->
+                
             </div>
-            
         </div>
     </div>
 
     
-       
-
-        
-      
+<script src="wmo.js"></script>      
 <script src="index.js"></script>
 </body>
 </html>
